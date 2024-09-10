@@ -1,0 +1,40 @@
+#primery {
+  display: flex;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  padding-block: 26px;
+  gap: 8px;
+}
+
+#logo{
+  margin: 20px auto 20px;
+  padding: 4px;
+}
+#logo img {
+  height: 24px;
+  width: 160px;
+  object-fit: cover
+}
+
+#busca {
+  display: flex;
+  align-items: center;
+  padding-block: 24px;
+  gap: 8px;
+}
+#busca img {
+  height: 20px;
+  width: 20px;
+}
+
+#secondary {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  padding-block: 14px;
+  border-top: 1px solid var(--stroke-color);
+  border-bottom: 1px solid var(--stroke-color);
+}
