@@ -45,7 +45,8 @@ main {
 
   @media (width < 80em){
     width: 375px;
-    padding-inline: 1rem;;
+    padding-inline: 1rem;
+    margin-inline: auto;
   }
 }
 

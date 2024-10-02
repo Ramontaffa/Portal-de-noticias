@@ -1,5 +1,29 @@
 #primery {
   display: flex;
+  border: 1px solid red;
+
+  @media (width < 80em){
+    padding-inline: 1rem;
+
+    & #logo {
+      & img {
+        width: 6.25rem;
+        height: 1rem;
+      }
+    }
+
+    & #menu {
+      & a {
+        display: none;
+      }
+    }
+
+    & #busca {
+      & a {
+        display: none;
+      }
+    }
+  }
 }
 
 #menu {
@@ -37,4 +61,18 @@
   padding-block: .875rem;
   border-top: 1px solid var(--stroke-color);
   border-bottom: 1px solid var(--stroke-color);
+
+  @media (width < 80em){
+    & a:nth-child(4),
+    & a:nth-child(5),
+    & a:nth-child(6),
+    & a:nth-child(7) {
+      display: none;
+    }
+
+    & a {
+      font-size: 0.75rem;
+      padding-inline: 1rem;
+    }
+  }
 }
