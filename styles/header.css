@@ -1,6 +1,5 @@
 #primery {
   display: flex;
-  border: 1px solid red;
 
   @media (width < 80em){
     padding-inline: 1rem;
