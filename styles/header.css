@@ -5,36 +5,36 @@
 #menu {
   display: flex;
   align-items: center;
-  padding-block: 26px;
-  gap: 8px;
+  padding-block: 1.625rem;
+  gap: .5rem;
 }
 
 #logo{
-  margin: 20px auto 20px;
-  padding: 4px;
+  margin: 1.25rem auto 1.25rem;
+  padding: .25rem;
 }
 #logo img {
-  height: 24px;
-  width: 160px;
+  height: 1.5rem;
+  width: 10rem;
   object-fit: cover
 }
 
 #busca {
   display: flex;
   align-items: center;
-  padding-block: 24px;
-  gap: 8px;
+  padding-block: 1.5rem;
+  gap: .5rem;
 }
 #busca img {
-  height: 20px;
-  width: 20px;
+  height: 1.25rem;
+  width: 1.25rem;
 }
 
 #secondary {
   display: grid;
   grid-auto-flow: column;
   justify-content: space-between;
-  padding-block: 14px;
+  padding-block: .875rem;
   border-top: 1px solid var(--stroke-color);
   border-bottom: 1px solid var(--stroke-color);
 }
