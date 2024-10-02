@@ -219,6 +219,8 @@ aside {
   }
 
   @media ( width < 80em) {
+    margin-bottom: 4rem;
+
     & header {
       display: flex;
       flex-direction: row;
