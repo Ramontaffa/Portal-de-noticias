@@ -2,7 +2,6 @@
   display: flex;
 
   @media (width < 80em){
-    padding-inline: 1rem;
 
     & #logo {
       & img {
